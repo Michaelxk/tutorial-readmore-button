@@ -1,0 +1,51 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.1rem;
+}
+
+.About .display-4 {
+  font-weight: bold;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.About .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+
+.About .info #readMore {
+  display: none;
+}
+
+.About button {
+  background-color: #363c5c;
+  outline: none;
+  color: #fff;
+  padding: 8px;
+  width: 300px;
+}
+.About .container-gif img {
+  margin: 0 auto;
+  padding: 0;
+  width: 500px;
+  height: 500px;
+}
+
+.footer {
+  color: #fff;
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: #1b2d35;
+}
